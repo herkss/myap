@@ -36,6 +36,7 @@ class _MainScreenState extends State<MainScreen> {
           });
       return;
     }
+
     setState(() {
       todoList.insert(0, todoText);
     });
